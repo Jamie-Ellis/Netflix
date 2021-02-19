@@ -2,14 +2,93 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Netflix</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <style>
+        .card {
+            max-width: 150px;
+            font-size: 0.7rem;
+           
+        }
+        .card-title {
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: red;
+        }
+        .card-text {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            background-color: red;
+        }
+    </style>
 </head>
 <body>
-    
-    <div>
+    <div class="container">
+        <div class="row">
+
+            <div class="col col-12">
+                <h5>Trending Now</h5>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 py-auto">
+
+            <div class="card bg-dark text-white">
+                <img src="https://picsum.photos/536/354" class="card-img img-fluid" alt="https://picsum.photos/536/354">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">Netflix</h5>
+                    <p class="card-text">New episodes</p>
+                </div>
+            </div>
+
+            <div class="card bg-dark text-white">
+                <img src="https://picsum.photos/535/354" class="card-img img-fluid" alt="https://picsum.photos/536/354">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Netflix</h5>
+                  <p class="card-text">New episodes</p>
+                </div>
+            </div>
+
+            <div class="card bg-dark text-white">
+                <img src="https://picsum.photos/536/358" class="card-img img-fluid" alt="https://picsum.photos/536/354">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Netflix</h5>
+                  <p class="card-text">New episodes</p>
+                </div>
+            </div>
+
+            <div class="card bg-dark text-white">
+                <img src="https://picsum.photos/532/354" class="card-img img-fluid" alt="https://picsum.photos/536/354">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Netflix</h5>
+                  <p class="card-text">New episodes</p>
+                </div>
+            </div>
+
+            <div class="card bg-dark text-white">
+                <img src="https://picsum.photos/536/356" class="card-img img-fluid" alt="https://picsum.photos/536/354">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Netflix</h5>
+                  <p class="card-text">New episodes</p>
+                </div>
+            </div>
+
+            <div class="card bg-dark text-white">
+                <img src="https://picsum.photos/526/356" class="card-img img-fluid" alt="https://picsum.photos/536/354">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Netflix</h5>
+                  <p class="card-text">New episodes</p>
+                </div>
+            </div>
+
+        </div>
     </div>
-    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body>
 </html>
